@@ -1,0 +1,23 @@
+{
+  "name": "rideflow",
+  "version": "1.0.0",
+  "description": "Three-portal ride booking platform starter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "create-admin": "node create-admin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-pg-simple": "^10.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": { "nodemon": "^3.1.7" }
+}
